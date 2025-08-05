@@ -3,7 +3,7 @@ Você pode instalar [aqui](), será perguntado quais você deseja instalar ou n�
 # Apps instalados
 - Vivaldi
 - Discord
-- Tor 
+- Tor Browser
 - qBittorrent
 - Dolphin emulator
 - Grub customizer
