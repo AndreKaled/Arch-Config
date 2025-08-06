@@ -1,4 +1,4 @@
-Você pode instalar [aqui](), será perguntado quais você deseja instalar ou não, ou seguir instalando tudo no automático
+Você pode instalar o script [aqui](https://github.com/AndreKaled/Arch-Config/blob/main/apps.sh), será perguntado quais você deseja instalar ou não, ou seguir instalando tudo no automático.
 
 # Apps instalados
 - Vivaldi
@@ -7,6 +7,7 @@ Você pode instalar [aqui](), será perguntado quais você deseja instalar ou n�
 - qBittorrent
 - Dolphin emulator
 - Grub customizer
+- Youtube music
 
 # Ferramentas
 - yay (gerenciador de pacotes)
