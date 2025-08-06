@@ -15,6 +15,7 @@ Você pode instalar [aqui](), será perguntado quais você deseja instalar ou n�
 - Btop
 - Flameshot
 - VS code
+- Android Studio
 
 # Linguagens instaladas
 - Java 24
