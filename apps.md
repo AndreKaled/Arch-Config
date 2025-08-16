@@ -17,6 +17,7 @@ Você pode instalar o script [aqui](https://github.com/AndreKaled/Arch-Config/bl
 - Flameshot
 - VS code
 - Android Studio
+- IntelliJ IDE
 
 # Linguagens instaladas
 - Java 24

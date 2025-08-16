@@ -19,6 +19,7 @@
 # - Git
 # - Youtube Music
 # - Android Studio
+# - IntelliJ IDE
 
 # Linguagens instaladas
 # - Java 24
@@ -197,6 +198,15 @@ php_install(){
     fi
 }
 
+intelliJ_install(){
+    if ! comando_existe intellij-idea-ultimate-edition; then
+        echo "Instalando intellij..."
+        yay -S install intellij-idea-ultimate-edition --noconfirm
+    else
+        echo "intellij já instalado."
+    fi
+}
+
 installAll(){
     echo "Iniciando instalação completa."
     git_install
@@ -217,6 +227,7 @@ installAll(){
     java_install
     kotlin_install
     php_install
+    intelliJ_install
     echo "Instalação completa finalizada!"
 }
 
@@ -237,11 +248,10 @@ selectAppsInstall(){
     echo "  11) Git"
     echo "  12) Android Studio"    
     echo "  13) Youtube-music"
-    echo ""
-    echo "Linguagens de programação"
     echo "  14) Java"
     echo "  15) Kotlin"
     echo "  16) PHP"
+    echo "  17) IntelliJ IDE"
     echo "----------------------------------------------------------------"
     read -p "Sua escolha (ex: 1 3 12): " opcoes_selecionadas
     for opcoes in $opcoes_selecionadas; do
@@ -262,6 +272,7 @@ selectAppsInstall(){
             14) java_install ;;
             15) kotlin_install ;;
             16) php_install ;;
+            17) yay_install; intelliJ_install ;;
             *) echo "Opção inválida: $opcoes. Ignorando."
         esac
     done
